@@ -1,0 +1,118 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-size: 9px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiraagino Sans GB","MicrosoftYaHei","微软雅黑",Arial,sans-serif;
+  user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
+  -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap惦记，heightlight背景高亮，color颜色，颜色用数值调节 */
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/images/bbg2.png") no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+video{  
+  position: fixed;  
+  right: 0px;  
+  bottom: 0px;  
+  min-width: 100%;  
+  min-height: 100%;  
+  height: auto;  
+  width: auto;  
+  /*加滤镜*/
+  /*filter: blur(15px); //背景模糊设置 */
+  /*-webkit-filter: grayscale(100%);*/  
+  /*filter:grayscale(100%); //背景灰度设置*/  
+  z-index:-11
+}  
+source{  
+  min-width: 100%;  
+  min-height: 100%;  
+  height: auto;  
+  width: auto;  
+}
+
+/* 初始化a标签样式 */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear-fix::after {
+  clear: both;
+  contain: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.clear-fix {
+  zoom: 1;
+}
+
+
+.switch {
+  width: 26px;
+  height: 10px;
+  position: relative;
+  border: 1px solid #fff;
+  background-color: transparent;
+  box-shadow: #fff 0 0 0 0 inset;
+  border-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.switch::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.switch:checked {
+  border-color: #00a4c2;
+  box-shadow: #00a4c2 0 0 0 16px inset;
+  background-color: #00a4c2;
+}
+
+.switch:checked:before {
+  left: 15px;
+}
+
+.switch.switch-anim {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s,
+    box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+
+.switch.switch-anim:before {
+  transition: left 0.3s;
+}
+
+.switch.switch-anim:checked {
+  box-shadow: #00a4c2 0 0 0 16px inset;
+  background-color: #00a4c2;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+
+.switch.switch-anim:checked:before {
+  transition: left 0.3s;
+}

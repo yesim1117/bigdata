@@ -1,0 +1,135 @@
+{
+  "id": "2283095",
+  "name": "新datav",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "934288",
+      "name": "阀",
+      "font_class": "shujutubiao26",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "1319371",
+      "name": "温度",
+      "font_class": "wendu",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "1695407",
+      "name": "风速",
+      "font_class": "fengsu",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7087612",
+      "name": "人员进入",
+      "font_class": "yuangongcheliangjinr",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "7551227",
+      "name": "风向标",
+      "font_class": "zu",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "7906176",
+      "name": "温室大棚",
+      "font_class": "wenshidapeng",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10090329",
+      "name": "湿帘",
+      "font_class": "shilian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11758209",
+      "name": "温湿度",
+      "font_class": "wenshidu",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "12537922",
+      "name": "传感器 - 异常",
+      "font_class": "chuanganqi-yichang",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12911636",
+      "name": "降雨量",
+      "font_class": "jiangyuliang",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "13455957",
+      "name": "缺水1",
+      "font_class": "queshui",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "13527555",
+      "name": "风机",
+      "font_class": "fengji",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "13927168",
+      "name": "气压",
+      "font_class": "qiya",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "14154846",
+      "name": "进水量",
+      "font_class": "jinshuiliang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15090062",
+      "name": "光照强度",
+      "font_class": "guangzhaoqiangdu",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    },
+    {
+      "icon_id": "15646466",
+      "name": "水肥机",
+      "font_class": "shuifeiji",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "17825472",
+      "name": "日照",
+      "font_class": "rizhao",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "18618229",
+      "name": "灌溉（停止）",
+      "font_class": "guangaitingzhi",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}
